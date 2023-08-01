@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/comic-background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+}
+
+h1 {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 20px;
+  color: whitesmoke;
+}
+
+.container{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jokes {
+  font-size: 2rem;
+  margin-bottom: 100px;
+  height: auto;
+  width: 50%;
+}
+
+#button {
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  color: rgb(155, 145, 145);
+}
+
